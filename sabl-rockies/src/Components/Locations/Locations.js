@@ -18,11 +18,11 @@ export default function Locations() {
                   <Card.Header>{location.Name}</Card.Header>
                   <Card.Body>
                     <Ratio>
-                      <iframe title={location.Name} src={location.Source} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe title={location.Name} src={location.Source} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                     </Ratio>
                     <ListGroup variant="flush">
                       {location.Games.map((game, index) =>
-                        <ListGroup.Item>{game}</ListGroup.Item>
+                        <ListGroup.Item key={index}>{game}</ListGroup.Item>
                       )}
                     </ListGroup>
                   </Card.Body>
