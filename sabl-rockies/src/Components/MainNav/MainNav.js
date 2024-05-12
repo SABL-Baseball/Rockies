@@ -6,9 +6,9 @@ import Logo from '../../Logo.jpeg';
 export default function MainNav() {
     return (
         <>
-            <Navbar bg="dark" data-bs-theme="dark">
+            <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
                 <Container>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand href="#/home">
                         <img
                             src={Logo}
                             width="30"
@@ -17,13 +17,16 @@ export default function MainNav() {
                             alt="SABL Rockies Logo"
                         />
                     </Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="#/schedule">Schedule</Nav.Link>
-                        <Nav.Link href="#/roster">Roster</Nav.Link>
-                        <Nav.Link href="#/stats">Stats</Nav.Link>
-                        <Nav.Link href="#/locations">Locations</Nav.Link>
-                    </Nav>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="me-auto" style={{color: "white"}}>
+                            <Nav.Link href="#/home">Home</Nav.Link>
+                            <Nav.Link href="#/schedule">Schedule</Nav.Link>
+                            <Nav.Link href="#/roster">Roster</Nav.Link>
+                            <Nav.Link href="#/stats">Stats</Nav.Link>
+                            <Nav.Link href="#/locations">Locations</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </>

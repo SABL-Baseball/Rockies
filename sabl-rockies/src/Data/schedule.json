@@ -1,0 +1,117 @@
+[
+    {
+        "Date": "05/05/24",
+        "Time": "4pm",
+        "Team": "Royals",
+        "Home": false,
+        "Location": "Aspen",
+        "Score": "4-14",
+        "Result": "L",
+        "Bye": false
+    },
+    {
+        "Date": "05/12/24",
+        "Team": "Mother's Day",
+        "Bye": true
+    },
+    {
+        "Date": "05/19/24",
+        "Time": "1pm",
+        "Team": "Twins",
+        "Home": true,
+        "Location": "Augie",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "05/26/24",
+        "Team": "Memorial Day",
+        "Bye": true
+    },
+    {
+        "Date": "06/02/24",
+        "Time": "1pm",
+        "Team": "Prairie Dogs",
+        "Home": false,
+        "Location": "Augie",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "06/09/24",
+        "Time": "1pm",
+        "Team": "Angels",
+        "Home": true,
+        "Location": "Larchwood",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "06/16/24",
+        "Time": "1pm",
+        "Team": "Orioles",
+        "Home": true,
+        "Location": "Beresford",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "06/23/24",
+        "Time": "7pm",
+        "Team": "Rays",
+        "Home": true,
+        "Location": "Birdcage",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "06/30/24",
+        "Time": "1pm",
+        "Team": "Royals",
+        "Home": true,
+        "Location": "Augie",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "07/07/24",
+        "Team": "Independence Day",
+        "Bye": true
+    },
+    {
+        "Date": "07/14/24",
+        "Time": "4pm",
+        "Team": "Pheasants",
+        "Home": true,
+        "Location": "Augie",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "07/21/24",
+        "Time": "1pm",
+        "Team": "Angels",
+        "Home": false,
+        "Location": "Larchwood",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "07/28/24",
+        "Time": "1pm",
+        "Team": "Orioles",
+        "Home": false,
+        "Location": "TBD",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    }
+]

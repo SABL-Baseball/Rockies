@@ -4,5 +4,6 @@ import Navbar from './MainNav/MainNav';
 import Roster from './Roster/Roster';
 import Schedule from './Schedule/Schedule';
 import Stats from './Stats/Stats';
+import Footer from './Footer/Footer';
 
-export { Home, Locations, Navbar, Roster, Schedule, Stats };
+export { Footer, Home, Locations, Navbar, Roster, Schedule, Stats };
