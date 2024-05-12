@@ -7,7 +7,7 @@ export default function Home() {
     <div style={{backgroundColor: "#333366"}}>
       <Container style={{backgroundColor: "white", paddingBottom: "15px"}}>
         <Container style={{textAlign: "center", paddingTop: "15px"}}>
-          <Image src={Logo} className="d-inline-block align-top" alt="SABL Rockies Logo" />
+          <Image src={Logo} className="d-inline-block align-top" alt="SABL Rockies Logo" fluid />
         </Container>
         <Container>
           <h1>About</h1>
