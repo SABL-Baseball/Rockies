@@ -32,6 +32,24 @@ export default function Stats() {
         SO: 0,
         TB: 0
       };
+
+      combinedPlayer.Pitching = {
+        IP: 0,
+        H: 0,
+        R: 0,
+        ER: 0,
+        BB: 0,
+        SO: 0,
+        HR: 0,
+        HBP: 0,
+        WP: 0,
+        BK: 0,
+        SB: 0,
+        LOB: 0,
+        ERA: 0,
+        WHIP: 0
+      };
+
       player.GameLog.forEach(game => {
         if (game.Hitting) {
           combinedPlayer.Hitting.PA += game.Hitting.PA;
@@ -48,15 +66,40 @@ export default function Stats() {
           combinedPlayer.Hitting.HBP += game.Hitting.HBP;
           combinedPlayer.Hitting.SO += game.Hitting.SO;
           combinedPlayer.Hitting.TB += game.Hitting["1B"] + (game.Hitting["2B"] * 2) + (game.Hitting["3B"] *3) + (game.Hitting.HR * 4);
-          combinedPlayer.Hitting.AVG = combinedPlayer.Hitting.H / combinedPlayer.Hitting.AB;
-          combinedPlayer.Hitting.OBP = (combinedPlayer.Hitting.H + combinedPlayer.Hitting.BB + combinedPlayer.Hitting.HBP) / combinedPlayer.Hitting.PA;
-          combinedPlayer.Hitting.SLG = combinedPlayer.Hitting.TB / combinedPlayer.Hitting.AB;
-          combinedPlayer.Hitting.OPS = parseFloat(combinedPlayer.Hitting.OBP + combinedPlayer.Hitting.SLG).toFixed(3);
-          combinedPlayer.Hitting.AVG = parseFloat(combinedPlayer.Hitting.AVG).toFixed(3);
-          combinedPlayer.Hitting.OBP = parseFloat(combinedPlayer.Hitting.OBP).toFixed(3);
-          combinedPlayer.Hitting.SLG = parseFloat(combinedPlayer.Hitting.SLG).toFixed(3);
         }
-      })
+
+        if (game.Pitching) {
+          combinedPlayer.Pitching.IP += game.Pitching.IP;
+          combinedPlayer.Pitching.H += game.Pitching.H;
+          combinedPlayer.Pitching.R += game.Pitching.R;
+          combinedPlayer.Pitching.ER += game.Pitching.ER;
+          combinedPlayer.Pitching.BB += game.Pitching.BB;
+          combinedPlayer.Pitching.SO += game.Pitching.SO;
+          combinedPlayer.Pitching.HR += game.Pitching.HR;
+          combinedPlayer.Pitching.HBP += game.Pitching.HBP;
+          combinedPlayer.Pitching.WP += game.Pitching.WP;
+          combinedPlayer.Pitching.BK += game.Pitching.BK;
+          combinedPlayer.Pitching.SB += game.Pitching.SB;
+          combinedPlayer.Pitching.LOB += game.Pitching.LOB;
+        }
+      });
+
+      combinedPlayer.Hitting.AVG = combinedPlayer.Hitting.H / combinedPlayer.Hitting.AB;
+      combinedPlayer.Hitting.OBP = (combinedPlayer.Hitting.H + combinedPlayer.Hitting.BB + combinedPlayer.Hitting.HBP) / combinedPlayer.Hitting.PA;
+      combinedPlayer.Hitting.SLG = combinedPlayer.Hitting.TB / combinedPlayer.Hitting.AB;
+      combinedPlayer.Hitting.OPS = parseFloat(combinedPlayer.Hitting.OBP + combinedPlayer.Hitting.SLG).toFixed(3);
+      combinedPlayer.Hitting.AVG = parseFloat(combinedPlayer.Hitting.AVG).toFixed(3);
+      combinedPlayer.Hitting.OBP = parseFloat(combinedPlayer.Hitting.OBP).toFixed(3);
+      combinedPlayer.Hitting.SLG = parseFloat(combinedPlayer.Hitting.SLG).toFixed(3);
+      
+      let innings = Math.floor(combinedPlayer.Pitching.IP);
+      let partialInning = combinedPlayer.Pitching.IP % 1;
+      let partialInningInThirds = (partialInning * 10) / 3;
+      let totalInnings = innings + partialInningInThirds;
+
+      combinedPlayer.Pitching.ERA = parseFloat((combinedPlayer.Pitching.ER / totalInnings) * 9).toFixed(3);
+      combinedPlayer.Pitching.WHIP = parseFloat(((combinedPlayer.Pitching.BB + combinedPlayer.Pitching.H) / totalInnings) * 9).toFixed(3);
+
       tempStats.push(combinedPlayer);
     });
     console.log("tempStats", tempStats);
@@ -102,7 +145,7 @@ export default function Stats() {
               </tr>
             </thead>
             <tbody>
-              {combinedStats?.map((player, index) => 
+              {combinedStats?.filter(player => player.Hitting.PA > 0).map((player, index) => 
               <tr key={index}>
                 <td>{player.JerseyNumber}</td>
                 <td>{player.Name}</td>
@@ -132,22 +175,38 @@ export default function Stats() {
                 <th title="Jersey Number">#</th>
                 <th title="Player Name">Name</th>
                 <th title="Innings Pitched">IP</th>
+                <th title="Stikeouts">SO</th>
                 <th title="Hits Allowed">H</th>
                 <th title="Runs Allowed">R</th>
                 <th title="Earned Runs Allowed">ER</th>
-                <th title="Walks Allowed">BB</th>
-                <th title="Stikeouts">SO</th>
+                <th title="Earned Runs Allowed">ERA</th>
+                <th title="Walks + Hits Per Inning">WHIP</th>
+                <th title="Earned Run Average">BB</th>
                 <th title="Home Runs Allowed">HR</th>
+                <th title="Walks Allowed">BB</th>
                 <th title="Hit By Pitch">HBP</th>
                 <th title="Wild Pitches">WP</th>
                 <th title="Balks">BK</th>
               </tr>
             </thead>
             <tbody>
-              {combinedStats?.map((player, index) => 
+              {combinedStats?.filter(player => player.Pitching.IP > 0).map((player, index) => 
               <tr key={index}>
                 <td>{player.JerseyNumber}</td>
                 <td>{player.Name}</td>
+                <td>{player.Pitching.IP}</td>
+                <td>{player.Pitching.SO}</td>
+                <td>{player.Pitching.H}</td>
+                <td>{player.Pitching.R}</td>
+                <td>{player.Pitching.ER}</td>
+                <td>{player.Pitching.ERA}</td>
+                <td>{player.Pitching.WHIP}</td>
+                <td>{player.Pitching.BB}</td>
+                <td>{player.Pitching.HR}</td>
+                <td>{player.Pitching.BB}</td>
+                <td>{player.Pitching.HBP}</td>
+                <td>{player.Pitching.WP}</td>
+                <td>{player.Pitching.BK}</td>
               </tr>
               )}
             </tbody>
