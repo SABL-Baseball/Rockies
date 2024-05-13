@@ -5,7 +5,7 @@ import { faYoutube, faFacebookSquare, faInstagram } from '@fortawesome/free-bran
 export default function Footer() {
     return (
       <div style={{backgroundColor: "black", color: "white", padding: "15px 0"}}>
-        <Container>
+        <Container style={{display: "flex", justifyContent: "center", alignItems: "center"}}>
             <span>@2024 SABL Rockies</span>
             <a href="https://www.youtube.com/@SABLRockies" target="_blank" rel="noopener noreferrer" style={{ color: "white", paddingLeft: "10px"}}>
                 <FontAwesomeIcon icon={faYoutube} className="fa-2x" />
