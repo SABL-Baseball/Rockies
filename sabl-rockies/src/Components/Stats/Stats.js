@@ -15,6 +15,7 @@ export default function Stats() {
       let combinedPlayer = {};
       combinedPlayer.Name = player.Name;
       combinedPlayer.JerseyNumber = player.JerseyNumber;
+      combinedPlayer.Positions = player.Positions;
 
       combinedPlayer.Hitting = {
         PA: 0,
@@ -50,6 +51,12 @@ export default function Stats() {
         WHIP: 0
       };
 
+      combinedPlayer.Fielding = {
+        Putouts: 0,
+        Assists: 0,
+        Errors: 0
+      };
+
       player.GameLog.forEach(game => {
         if (game.Hitting) {
           combinedPlayer.Hitting.PA += game.Hitting.PA;
@@ -81,6 +88,12 @@ export default function Stats() {
           combinedPlayer.Pitching.BK += game.Pitching.BK;
           combinedPlayer.Pitching.SB += game.Pitching.SB;
           combinedPlayer.Pitching.LOB += game.Pitching.LOB;
+        }
+
+        if (game.Fielding) {
+          combinedPlayer.Fielding.Putouts += game.Fielding.Putouts;
+          combinedPlayer.Fielding.Assists += game.Fielding.Assists;
+          combinedPlayer.Fielding.Errors += game.Fielding.Errors;
         }
       });
 
@@ -131,17 +144,16 @@ export default function Stats() {
                 <th title="Plate Appearances">PA</th>
                 <th title="At Bats">AB</th>
                 <th title="Hits">H</th>
-                <th title="Doubles">2B</th>
-                <th title="Triples">3B</th>
-                <th title="Home Runs">HR</th>
+                <th title="Batting Average">AVG</th>
+                <th title="On Base Percentage">OBP</th>
+                <th title="Slugging">SLG</th>
+                <th title="On Base Plus Slugging">OPS</th>
                 <th title="Runs">R</th>
                 <th title="Runs Batted In">RBI</th>
                 <th title="Stolen Bases">SB</th>
-                <th title="Caught Stealing">CS</th>
                 <th title="Walk">BB</th>
                 <th title="Hit By Pitch">HBP</th>
                 <th title="Struck Out">SO</th>
-                <th title="Total Bases">TB</th>
               </tr>
             </thead>
             <tbody>
@@ -152,17 +164,16 @@ export default function Stats() {
                 <td>{player.Hitting.PA}</td>
                 <td>{player.Hitting.AB}</td>
                 <td>{player.Hitting.H}</td>
-                <td>{player.Hitting["2B"]}</td>
-                <td>{player.Hitting["3B"]}</td>
-                <td>{player.Hitting.HR}</td>
+                <td>{player.Hitting.AVG}</td>
+                <td>{player.Hitting.OBP}</td>
+                <td>{player.Hitting.SLG}</td>
+                <td>{player.Hitting.OPS}</td>
                 <td>{player.Hitting.R}</td>
                 <td>{player.Hitting.RBI}</td>
                 <td>{player.Hitting.SB}</td>
-                <td>{player.Hitting.CS}</td>
                 <td>{player.Hitting.BB}</td>
                 <td>{player.Hitting.HBP}</td>
                 <td>{player.Hitting.SO}</td>
-                <td>{player.Hitting.TB}</td>
               </tr>
               )}
             </tbody>
@@ -175,7 +186,7 @@ export default function Stats() {
                 <th title="Jersey Number">#</th>
                 <th title="Player Name">Name</th>
                 <th title="Innings Pitched">IP</th>
-                <th title="Stikeouts">SO</th>
+                <th title="Stikeouts">K</th>
                 <th title="Hits Allowed">H</th>
                 <th title="Runs Allowed">R</th>
                 <th title="Earned Runs Allowed">ER</th>
@@ -186,7 +197,6 @@ export default function Stats() {
                 <th title="Walks Allowed">BB</th>
                 <th title="Hit By Pitch">HBP</th>
                 <th title="Wild Pitches">WP</th>
-                <th title="Balks">BK</th>
               </tr>
             </thead>
             <tbody>
@@ -206,7 +216,6 @@ export default function Stats() {
                 <td>{player.Pitching.BB}</td>
                 <td>{player.Pitching.HBP}</td>
                 <td>{player.Pitching.WP}</td>
-                <td>{player.Pitching.BK}</td>
               </tr>
               )}
             </tbody>
@@ -218,6 +227,7 @@ export default function Stats() {
               <tr>
                 <th title="Jersey Number">#</th>
                 <th title="Player Name">Name</th>
+                <th title="Positions">Positions</th>
                 <th title="Putouts">Putouts</th>
                 <th title="Assists">Assists</th>
                 <th title="Errors">Errors</th>
@@ -228,6 +238,10 @@ export default function Stats() {
               <tr key={index}>
                 <td>{player.JerseyNumber}</td>
                 <td>{player.Name}</td>
+                <td>{player.Positions}</td>
+                <td>{player.Fielding.Putouts}</td>
+                <td>{player.Fielding.Assists}</td>
+                <td>{player.Fielding.Errors}</td>
               </tr>
               )}
             </tbody>

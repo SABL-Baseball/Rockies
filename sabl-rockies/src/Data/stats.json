@@ -2,19 +2,11 @@
     {
         "Name": "Andrew Halling",
         "JerseyNumber": 74,
+        "Positions": "3B, SS, LF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
                     "PA": 3,
                     "AB": 1,
@@ -31,25 +23,42 @@
                     "HBP": 1,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 2
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
+                }
             }
         ]
     },
     {
         "Name": "Javier Gomez",
         "JerseyNumber": 22,
+        "Positions": "C, 3B",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
                     "PA": 3,
                     "AB": 2,
@@ -66,25 +75,42 @@
                     "HBP": 0,
                     "TB": 2
                 }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 7,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
             }
         ]
     },
     {
         "Name": "Corey Wirkus",
         "JerseyNumber": 2,
+        "Positions": "LF, RF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
                     "PA": 3,
                     "AB": 3,
@@ -101,25 +127,42 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 1,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
     {
         "Name": "Brad Struck",
         "JerseyNumber": 11,
+        "Positions": "P, SS",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
                     "PA": 3,
                     "AB": 2,
@@ -150,24 +193,14 @@
                     "SB": 2,
                     "LOB": 4
                 }
-            }
-        ]
-    },
-    {
-        "Name": "Arialdis Perez",
-        "JerseyNumber": 23,
-        "GameLog": [
+            },
             {
-                "Date": "05/05/2024",
-                "Opponent": "Royals",
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
                 "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
+                    "Putouts": 1,
+                    "Assists": 2,
+                    "Errors": 2
                 },
                 "Hitting": {
                     "PA": 3,
@@ -184,6 +217,86 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 0
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 0,
+                    "R": 0,
+                    "ER": 0,
+                    "BB": 1,
+                    "SO": 3,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 2
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Arialdis Perez",
+        "JerseyNumber": 23,
+        "Positions": "P, LF",
+        "GameLog": [
+            {
+                "Date": "05/05/2024",
+                "Opponent": "Royals",
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 1,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                },
+                "Pitching": {
+                    "IP": 2.1,
+                    "H": 1,
+                    "R": 3,
+                    "ER": 0,
+                    "BB": 2,
+                    "SO": 3,
+                    "HR": 0,
+                    "HBP": 2,
+                    "WP": 3,
+                    "BK": 0,
+                    "SB": 1,
+                    "LOB": 6
                 }
             }
         ]
@@ -191,22 +304,14 @@
     {
         "Name": "Tayden Vandenberg",
         "JerseyNumber": 54,
+        "Positions": "",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
-                    "PA": 2,
-                    "AB": 0,
+                    "PA": 3,
+                    "AB": 2,
                     "R": 0,
                     "1B": 0,
                     "2B": 0,
@@ -226,19 +331,11 @@
     {
         "Name": "Titus Wipf",
         "JerseyNumber": 0,
+        "Positions": "P, LF, RF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
                     "PA": 3,
                     "AB": 3,
@@ -269,24 +366,139 @@
                     "SB": 4,
                     "LOB": 2
                 }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 1,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                },
+                "Pitching": {
+                    "IP": 2.2,
+                    "H": 5,
+                    "R": 10,
+                    "ER": 4,
+                    "BB": 3,
+                    "SO": 1,
+                    "HR": 0,
+                    "HBP": 2,
+                    "WP": 2,
+                    "BK": 0,
+                    "SB": 5,
+                    "LOB": 3
+                }
             }
         ]
     },
     {
         "Name": "Nathan Vlasich",
         "JerseyNumber": 31,
+        "Positions": "2B",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
                 "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 2
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 1,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 1,
+                    "TB": 0
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Jason Bill",
+        "JerseyNumber": 14,
+        "Positions": "",
+        "GameLog": [
+        ]
+    },
+    {
+        "Name": "Joshua Pompa",
+        "JerseyNumber": 24,
+        "Positions": "1B",
+        "GameLog": [
+            {
+                "Date": "05/05/2024",
+                "Opponent": "Royals",
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 2
+                }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 0,
+                    "Errors": 0
                 },
                 "Hitting": {
                     "PA": 3,
@@ -308,62 +520,13 @@
         ]
     },
     {
-        "Name": "Jason Bill",
-        "JerseyNumber": 14,
-        "GameLog": [
-        ]
-    },
-    {
-        "Name": "Joshua Pompa",
-        "JerseyNumber": 24,
-        "GameLog": [
-            {
-                "Date": "05/05/2024",
-                "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
-                "Hitting": {
-                    "PA": 3,
-                    "AB": 3,
-                    "R": 0,
-                    "1B": 2,
-                    "2B": 0,
-                    "3B": 0,
-                    "HR": 0,
-                    "RBI": 0,
-                    "SB": 0,
-                    "CS": 0,
-                    "BB": 0,
-                    "SO": 1,
-                    "HBP": 0,
-                    "TB": 2
-                }
-            }
-        ]
-    },
-    {
         "Name": "Dawson Krahling",
         "JerseyNumber": 13,
+        "Positions": "P, CF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
                 "Opponent": "Royals",
-                "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
-                },
                 "Hitting": {
                     "PA": 3,
                     "AB": 3,
@@ -394,24 +557,14 @@
                     "SB": 2,
                     "LOB": 4
                 }
-            }
-        ]
-    },
-    {
-        "Name": "Brett Sharon",
-        "JerseyNumber": 12,
-        "GameLog": [
+            },
             {
-                "Date": "05/05/2024",
-                "Opponent": "Royals",
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
                 "Fielding": {
-                    "Positions": {
-                        "1B": {
-                            "Putouts": 0,
-                            "Assists": 0,
-                            "Errors": 0
-                        }
-                    }
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 2
                 },
                 "Hitting": {
                     "PA": 3,
@@ -428,6 +581,72 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 0
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 1,
+                    "R": 0,
+                    "ER": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Brett Sharon",
+        "JerseyNumber": 12,
+        "Positions": "1B, 2B",
+        "GameLog": [
+            {
+                "Date": "05/05/2024",
+                "Opponent": "Royals",
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 7,
+                    "Assists": 0,
+                    "Errors": 2
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 1,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
                 }
             }
         ]
@@ -435,7 +654,33 @@
     {
         "Name": "Braydon Carter",
         "JerseyNumber": 8,
+        "Positions": "C, 3B, RF",
         "GameLog": [
+            {
+                "Date": "05/19/2024",
+                "Opponent": "Twins",
+                "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            }
         ]
     }
 ]

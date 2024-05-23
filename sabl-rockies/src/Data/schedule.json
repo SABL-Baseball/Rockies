@@ -20,9 +20,10 @@
         "Team": "Twins",
         "Home": true,
         "Location": "Augie",
-        "Score": "",
-        "Result": "",
-        "Bye": false
+        "Score": "2-13",
+        "Result": "L",
+        "Bye": false,
+        "Stream": "https://www.youtube.com/watch?v=Rd0h1lizJAY"
     },
     {
         "Date": "05/26/24",
@@ -37,7 +38,8 @@
         "Location": "Augie",
         "Score": "",
         "Result": "",
-        "Bye": false
+        "Bye": false,
+        "Stream": "https://www.youtube.com/live/3kQLhUQfiEc?si=t6T-oxNkrRIWQXsl"
     },
     {
         "Date": "06/09/24",
@@ -55,6 +57,16 @@
         "Team": "Orioles",
         "Home": true,
         "Location": "Beresford",
+        "Score": "",
+        "Result": "",
+        "Bye": false
+    },
+    {
+        "Date": "06/17/24",
+        "Time": "7pm",
+        "Team": "Brewers",
+        "Home": false,
+        "Location": "Augie",
         "Score": "",
         "Result": "",
         "Bye": false
