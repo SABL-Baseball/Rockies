@@ -6,7 +6,7 @@ import Logo from '../../Logo.jpeg';
 export default function MainNav() {
     return (
         <>
-            <Navbar expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
+            <Navbar collapseOnSelect expand="lg" bg="dark" data-bs-theme="dark" sticky="top">
                 <Container>
                     <Navbar.Brand href="#/home">
                         <img

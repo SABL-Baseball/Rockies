@@ -48,7 +48,8 @@ export default function Stats() {
         SB: 0,
         LOB: 0,
         ERA: 0,
-        WHIP: 0
+        WHIP: 0,
+        BAA: 0
       };
 
       combinedPlayer.Fielding = {
@@ -111,7 +112,8 @@ export default function Stats() {
       let totalInnings = innings + partialInningInThirds;
 
       combinedPlayer.Pitching.ERA = parseFloat((combinedPlayer.Pitching.ER / totalInnings) * 9).toFixed(3);
-      combinedPlayer.Pitching.WHIP = parseFloat(((combinedPlayer.Pitching.BB + combinedPlayer.Pitching.H) / totalInnings) * 9).toFixed(3);
+      combinedPlayer.Pitching.WHIP = parseFloat((combinedPlayer.Pitching.BB + combinedPlayer.Pitching.H) / totalInnings).toFixed(3);
+      combinedPlayer.Pitching.BAA = parseFloat(combinedPlayer.Pitching.H / (innings * 3 + partialInning)).toFixed(3);
 
       tempStats.push(combinedPlayer);
     });
@@ -192,6 +194,7 @@ export default function Stats() {
                 <th title="Earned Runs Allowed">ER</th>
                 <th title="Earned Runs Allowed">ERA</th>
                 <th title="Walks + Hits Per Inning">WHIP</th>
+                <th title="Batting Average Against">BAA</th>
                 <th title="Earned Run Average">BB</th>
                 <th title="Home Runs Allowed">HR</th>
                 <th title="Walks Allowed">BB</th>
@@ -211,6 +214,7 @@ export default function Stats() {
                 <td>{player.Pitching.ER}</td>
                 <td>{player.Pitching.ERA}</td>
                 <td>{player.Pitching.WHIP}</td>
+                <td>{player.Pitching.BAA}</td>
                 <td>{player.Pitching.BB}</td>
                 <td>{player.Pitching.HR}</td>
                 <td>{player.Pitching.BB}</td>
