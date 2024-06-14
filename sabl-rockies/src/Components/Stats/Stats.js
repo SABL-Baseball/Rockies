@@ -7,17 +7,23 @@ import { useState, useEffect } from 'react';
 export default function Stats() {
   const [combinedStats, setCombinedStats] = useState([]);
   const [statType, setStatType] = useState("Hitting");
+  const [sortType, setSortType] = useState(["AVG", "IP", "Putouts"]);
+
+  const setSort = (index, sort) => {
+    let tempSort = [...sortType];
+    tempSort[index] = sort;
+    setSortType(tempSort);
+  }
 
   useEffect(() => {
     let tempStats = [];
   
     statsData.forEach(player => {
       let combinedPlayer = {};
-      combinedPlayer.Name = player.Name;
-      combinedPlayer.JerseyNumber = player.JerseyNumber;
-      combinedPlayer.Positions = player.Positions;
 
       combinedPlayer.Hitting = {
+        Name: player.Name,
+        JerseyNumber: player.JerseyNumber,
         PA: 0,
         AB: 0,
         R: 0,
@@ -35,6 +41,8 @@ export default function Stats() {
       };
 
       combinedPlayer.Pitching = {
+        Name: player.Name,
+        JerseyNumber: player.JerseyNumber,
         IP: 0,
         H: 0,
         R: 0,
@@ -53,6 +61,9 @@ export default function Stats() {
       };
 
       combinedPlayer.Fielding = {
+        Name: player.Name,
+        JerseyNumber: player.JerseyNumber,
+        Positions: player.Positions,
         Putouts: 0,
         Assists: 0,
         Errors: 0
@@ -117,7 +128,6 @@ export default function Stats() {
 
       tempStats.push(combinedPlayer);
     });
-    console.log("tempStats", tempStats);
 
     setCombinedStats(tempStats);
   }, []);
@@ -141,28 +151,28 @@ export default function Stats() {
           <Table striped bordered responsive>
             <thead>
               <tr>
-                <th title="Jersey Number">#</th>
-                <th title="Player Name">Name</th>
-                <th title="Plate Appearances">PA</th>
-                <th title="At Bats">AB</th>
-                <th title="Hits">H</th>
-                <th title="Batting Average">AVG</th>
-                <th title="On Base Percentage">OBP</th>
-                <th title="Slugging">SLG</th>
-                <th title="On Base Plus Slugging">OPS</th>
-                <th title="Runs">R</th>
-                <th title="Runs Batted In">RBI</th>
-                <th title="Stolen Bases">SB</th>
-                <th title="Walk">BB</th>
-                <th title="Hit By Pitch">HBP</th>
-                <th title="Struck Out">SO</th>
+                <th title="Jersey Number" onClick={() => setSort(0, "JerseyNumber")}>#</th>
+                <th title="Player Name" onClick={() => setSort(0, "Name")}>Name</th>
+                <th title="Plate Appearances" onClick={() => setSort(0, "PA")}>PA</th>
+                <th title="At Bats" onClick={() => setSort(0, "AB")}>AB</th>
+                <th title="Hits" onClick={() => setSort(0, "H")}>H</th>
+                <th title="Batting Average" onClick={() => setSort(0, "AVG")}>AVG</th>
+                <th title="On Base Percentage" onClick={() => setSort(0, "OBP")}>OBP</th>
+                <th title="Slugging" onClick={() => setSort(0, "SLG")}>SLG</th>
+                <th title="On Base Plus Slugging" onClick={() => setSort(0, "OPS")}>OPS</th>
+                <th title="Runs" onClick={() => setSort(0, "R")}>R</th>
+                <th title="Runs Batted In" onClick={() => setSort(0, "RBI")}>RBI</th>
+                <th title="Stolen Bases" onClick={() => setSort(0, "SB")}>SB</th>
+                <th title="Walk" onClick={() => setSort(0, "BB")}>BB</th>
+                <th title="Hit By Pitch" onClick={() => setSort(0, "HBP")}>HBP</th>
+                <th title="Struck Out" onClick={() => setSort(0, "SO")}>SO</th>
               </tr>
             </thead>
             <tbody>
-              {combinedStats?.filter(player => player.Hitting.PA > 0).map((player, index) => 
+              {combinedStats?.filter(player => player.Hitting.PA > 0).sort((a, b) => b.Hitting[sortType[0]] - a.Hitting[sortType[0]]).map((player, index) => 
               <tr key={index}>
-                <td>{player.JerseyNumber}</td>
-                <td>{player.Name}</td>
+                <td>{player.Hitting.JerseyNumber}</td>
+                <td>{player.Hitting.Name}</td>
                 <td>{player.Hitting.PA}</td>
                 <td>{player.Hitting.AB}</td>
                 <td>{player.Hitting.H}</td>
@@ -185,28 +195,26 @@ export default function Stats() {
           <Table striped bordered responsive>
             <thead>
               <tr>
-                <th title="Jersey Number">#</th>
-                <th title="Player Name">Name</th>
-                <th title="Innings Pitched">IP</th>
-                <th title="Stikeouts">K</th>
-                <th title="Hits Allowed">H</th>
-                <th title="Runs Allowed">R</th>
-                <th title="Earned Runs Allowed">ER</th>
-                <th title="Earned Runs Allowed">ERA</th>
-                <th title="Walks + Hits Per Inning">WHIP</th>
-                <th title="Batting Average Against">BAA</th>
-                <th title="Earned Run Average">BB</th>
-                <th title="Home Runs Allowed">HR</th>
-                <th title="Walks Allowed">BB</th>
-                <th title="Hit By Pitch">HBP</th>
-                <th title="Wild Pitches">WP</th>
+                <th title="Jersey Number" onClick={() => setSort(1, "JerseyNumber")}>#</th>
+                <th title="Player Name" onClick={() => setSort(1, "Name")}>Name</th>
+                <th title="Innings Pitched" onClick={() => setSort(1, "IP")}>IP</th>
+                <th title="Stikeouts" onClick={() => setSort(1, "SO")}>K</th>
+                <th title="Hits Allowed" onClick={() => setSort(1, "H")}>H</th>
+                <th title="Runs Allowed" onClick={() => setSort(1, "R")}>R</th>
+                <th title="Earned Runs Allowed" onClick={() => setSort(1, "ER")}>ER</th>
+                <th title="Earned Runs Average" onClick={() => setSort(1, "ERA")}>ERA</th>
+                <th title="Walks + Hits Per Inning" onClick={() => setSort(1, "WHIP")}>WHIP</th>
+                <th title="Batting Average Against" onClick={() => setSort(1, "BAA")}>BAA</th>
+                <th title="Walks Allowed" onClick={() => setSort(1, "BB")}>BB</th>
+                <th title="Hit By Pitch" onClick={() => setSort(1, "HBP")}>HBP</th>
+                <th title="Wild Pitches" onClick={() => setSort(1, "WP")}>WP</th>
               </tr>
             </thead>
             <tbody>
-              {combinedStats?.filter(player => player.Pitching.IP > 0).map((player, index) => 
+              {combinedStats?.filter(player => player.Pitching.IP > 0).sort((a, b) => b.Pitching[sortType[1]] - a.Pitching[sortType[1]]).map((player, index) => 
               <tr key={index}>
-                <td>{player.JerseyNumber}</td>
-                <td>{player.Name}</td>
+                <td>{player.Pitching.JerseyNumber}</td>
+                <td>{player.Pitching.Name}</td>
                 <td>{player.Pitching.IP}</td>
                 <td>{player.Pitching.SO}</td>
                 <td>{player.Pitching.H}</td>
@@ -215,8 +223,6 @@ export default function Stats() {
                 <td>{player.Pitching.ERA}</td>
                 <td>{player.Pitching.WHIP}</td>
                 <td>{player.Pitching.BAA}</td>
-                <td>{player.Pitching.BB}</td>
-                <td>{player.Pitching.HR}</td>
                 <td>{player.Pitching.BB}</td>
                 <td>{player.Pitching.HBP}</td>
                 <td>{player.Pitching.WP}</td>
@@ -229,20 +235,20 @@ export default function Stats() {
           <Table striped bordered responsive>
             <thead>
               <tr>
-                <th title="Jersey Number">#</th>
-                <th title="Player Name">Name</th>
-                <th title="Positions">Positions</th>
-                <th title="Putouts">Putouts</th>
-                <th title="Assists">Assists</th>
-                <th title="Errors">Errors</th>
+                <th title="Jersey Number" onClick={() => setSort(2, "JerseyNumber")}>#</th>
+                <th title="Player Name" onClick={() => setSort(2, "Name")}>Name</th>
+                <th title="Positions" onClick={() => setSort(2, "Positions")}>Positions</th>
+                <th title="Putouts" onClick={() => setSort(2, "Putouts")}>Putouts</th>
+                <th title="Assists" onClick={() => setSort(2, "Assists")}>Assists</th>
+                <th title="Errors" onClick={() => setSort(2, "Errors")}>Errors</th>
               </tr>
             </thead>
             <tbody>
-              {combinedStats?.map((player, index) => 
+              {combinedStats?.sort((a, b) => b.Fielding[sortType[2]] - a.Fielding[sortType[2]]).map((player, index) => 
               <tr key={index}>
-                <td>{player.JerseyNumber}</td>
-                <td>{player.Name}</td>
-                <td>{player.Positions}</td>
+                <td>{player.Fielding.JerseyNumber}</td>
+                <td>{player.Fielding.Name}</td>
+                <td>{player.Fielding.Positions}</td>
                 <td>{player.Fielding.Putouts}</td>
                 <td>{player.Fielding.Assists}</td>
                 <td>{player.Fielding.Errors}</td>

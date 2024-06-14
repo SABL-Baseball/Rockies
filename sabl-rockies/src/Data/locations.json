@@ -27,7 +27,6 @@
         "Source": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11657.264258154359!2d-96.80060201284185!3d43.0768501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878ef30e20f92227%3A0x1ed2646a2dfeed84!2sBeresford%20Baseball%20Field!5e0!3m2!1sen!2sus!4v1715552167727!5m2!1sen!2sus",
         "MapsLink": "https://maps.app.goo.gl/WzaTEvjf2mxaJXXU6",
         "Games": [
-            "06/16/24 @ 1pm: Orioles"
         ]
     },
     {
@@ -45,8 +44,17 @@
         "Source": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d191.66786669915456!2d-96.43143776066518!3d43.45212853491094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878ea7de78768acf%3A0xe33fbbfdd55c1558!2sLarchwood%20Diamonds%20baseball!5e0!3m2!1sen!2sus!4v1714333426596!5m2!1sen!2sus",
         "MapsLink": "https://maps.app.goo.gl/zhGHYV7fZZACfbkL7",
         "Games": [
-            "06/09/24 @ 1pm: Angels",
+            "06/09/24 @ 1pm: Angels L 1-15",
             "07/21/24 @ 1pm: Angels"
+        ]
+    },
+    {
+        "Name": "Sanford",
+        "Description": "",
+        "Source": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92574.69259874569!2d-96.76002610000003!3d43.52404470000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x878ecbad496023f1%3A0x227632f33c005faa!2sSanford%20Diamonds!5e0!3m2!1sen!2sus!4v1718324805721!5m2!1sen!2sus",
+        "MapsLink": "https://maps.app.goo.gl/uApdEepRNBZZg2sy7",
+        "Games": [
+            "06/16/24 @ 1pm: Orioles"
         ]
     }
 ]

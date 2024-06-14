@@ -47,8 +47,8 @@
         "Team": "Angels",
         "Home": true,
         "Location": "Larchwood",
-        "Score": "",
-        "Result": "",
+        "Score": "1-15",
+        "Result": "L",
         "Bye": false
     },
     {
@@ -56,7 +56,7 @@
         "Time": "1pm",
         "Team": "Orioles",
         "Home": true,
-        "Location": "Beresford",
+        "Location": "Sanford",
         "Score": "",
         "Result": "",
         "Bye": false
