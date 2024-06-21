@@ -57,9 +57,10 @@
         "Team": "Orioles",
         "Home": true,
         "Location": "Sanford",
-        "Score": "",
-        "Result": "",
-        "Bye": false
+        "Score": "8-22",
+        "Result": "L",
+        "Bye": false,
+        "Stream": "https://www.youtube.com/live/JlcPuKt0I-8?si=jvTvtrcAanXF6A9q"
     },
     {
         "Date": "06/17/24",

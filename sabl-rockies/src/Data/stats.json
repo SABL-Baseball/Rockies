@@ -2,7 +2,7 @@
     {
         "Name": "Andrew Halling",
         "JerseyNumber": 74,
-        "Positions": "C, 3B, SS, LF",
+        "Positions": "P, C, 3B, SS, LF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -98,13 +98,50 @@
                     "HBP": 0,
                     "TB": 0
                 }
-            }
+            },
+            {"Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 3,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 3,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 2
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 4,
+                    "R": 5,
+                    "ER": 5,
+                    "BB": 4,
+                    "SO": 0,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
+                }}
         ]
     },
     {
         "Name": "Javier Gomez",
         "JerseyNumber": 22,
-        "Positions": "C, 3B, SS",
+        "Positions": "P, C, 3B, SS",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -199,6 +236,45 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 3
+                }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 2
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 1,
+                    "R": 0,
+                    "ER": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
                 }
             }
         ]
@@ -302,13 +378,38 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 2,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
     {
         "Name": "Brad Struck",
         "JerseyNumber": 11,
-        "Positions": "P, 2B, SS",
+        "Positions": "P, 2B, 3B, SS",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -459,6 +560,31 @@
                     "BK": 0,
                     "SB": 0,
                     "LOB": 1
+                }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 3,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -623,7 +749,7 @@
     {
         "Name": "Titus Wipf",
         "JerseyNumber": 0,
-        "Positions": "P, LF, RF",
+        "Positions": "P, LF, CF, RF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -747,6 +873,31 @@
                     "HBP": 0,
                     "TB": 3
                 }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 3,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
+                }
             }
         ]
     },
@@ -863,13 +1014,38 @@
                     "SB": 2,
                     "LOB": 1
                 }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 5,
+                    "Assists": 2,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 1,
+                    "TB": 0
+                }
             }
         ]
     },
     {
         "Name": "Jason Bill",
         "JerseyNumber": 14,
-        "Positions": "P, 1B, SS, 3B",
+        "Positions": "P, 1B, 2B, 3B, SS",
         "GameLog": [
             {
                 "Date": "06/02/2024",
@@ -933,6 +1109,45 @@
                     "SO": 1,
                     "HBP": 0,
                     "TB": 0
+                }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 2,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 1,
+                    "TB": 2
+                },
+                "Pitching": {
+                    "IP": 4,
+                    "H": 19,
+                    "R": 17,
+                    "ER": 16,
+                    "BB": 1,
+                    "SO": 2,
+                    "HR": 0,
+                    "HBP": 1,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 4,
+                    "LOB": 0
                 }
             }
         ]
@@ -1050,13 +1265,38 @@
                     "SB": 0,
                     "LOB": 2
                 }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
     {
         "Name": "Dawson Krahling",
         "JerseyNumber": 13,
-        "Positions": "P, 1B, 2B, SS, CF",
+        "Positions": "P, C, 1B, 2B, SS, CF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -1194,6 +1434,31 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -1245,6 +1510,31 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 0
+                }
+            },
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -1300,6 +1590,38 @@
                     "CS": 0,
                     "BB": 1,
                     "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            }
+        ]
+    },
+    {
+        "Name": "Martell Burglar",
+        "JerseyNumber": 99,
+        "Positions": "RF",
+        "GameLog": [
+            {
+                "Date": "06/16/2024",
+                "Opponent": "Orioles",
+                "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 1,
+                    "AB": 1,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
                     "HBP": 0,
                     "TB": 0
                 }
