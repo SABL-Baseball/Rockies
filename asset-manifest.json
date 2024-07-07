@@ -1,18 +1,26 @@
 {
   "files": {
     "main.css": "/Rockies/static/css/main.f855e6bc.css",
-    "main.js": "/Rockies/static/js/main.ec9a5bab.js",
+    "main.js": "/Rockies/static/js/main.4390a85e.js",
     "static/js/453.cb43d52c.chunk.js": "/Rockies/static/js/453.cb43d52c.chunk.js",
-    "static/media/BrettSharon.jpg": "/Rockies/static/media/BrettSharon.cdbb331a15afd944b99e.jpg",
-    "static/media/AndrewHalling.jpg": "/Rockies/static/media/AndrewHalling.60cd4e5100fa506bbe29.jpg",
+    "static/media/BrettSharon.JPG": "/Rockies/static/media/BrettSharon.c52672cc9709cac1a48c.JPG",
+    "static/media/TitusWipf.JPG": "/Rockies/static/media/TitusWipf.ad7245675b4d1ff6b871.JPG",
+    "static/media/JavierGomez.JPG": "/Rockies/static/media/JavierGomez.3fc98adfd13a221dca09.JPG",
+    "static/media/ArialdisPerez.JPG": "/Rockies/static/media/ArialdisPerez.c7656bce36dacb301f62.JPG",
+    "static/media/JoshPompa.JPG": "/Rockies/static/media/JoshPompa.93236b203b4663b78dd2.JPG",
+    "static/media/JasonBill.JPG": "/Rockies/static/media/JasonBill.dc5d007e1220ef365e41.JPG",
+    "static/media/DawsonKrahling.JPG": "/Rockies/static/media/DawsonKrahling.d75e38d6e8e2022f0ca0.JPG",
+    "static/media/NathanVlasich.JPG": "/Rockies/static/media/NathanVlasich.796502fdfcbb92835eba.JPG",
+    "static/media/AndrewHalling.JPG": "/Rockies/static/media/AndrewHalling.632c76f77eaa31dc267e.JPG",
     "static/media/Logo.jpeg": "/Rockies/static/media/Logo.34c2362a32353cc0aba5.jpeg",
+    "static/media/BradStruck.JPG": "/Rockies/static/media/BradStruck.060dc1623e2988429bbb.JPG",
     "index.html": "/Rockies/index.html",
     "main.f855e6bc.css.map": "/Rockies/static/css/main.f855e6bc.css.map",
-    "main.ec9a5bab.js.map": "/Rockies/static/js/main.ec9a5bab.js.map",
+    "main.4390a85e.js.map": "/Rockies/static/js/main.4390a85e.js.map",
     "453.cb43d52c.chunk.js.map": "/Rockies/static/js/453.cb43d52c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.ec9a5bab.js"
+    "static/js/main.4390a85e.js"
   ]
 }
