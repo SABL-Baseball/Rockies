@@ -2,7 +2,7 @@
     {
         "Name": "Andrew Halling",
         "JerseyNumber": 74,
-        "Positions": "P, C, 3B, SS, LF",
+        "Positions": "P, C, 1B, 3B, SS, LF, RF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -99,7 +99,8 @@
                     "TB": 0
                 }
             },
-            {"Date": "06/16/2024",
+            {
+                "Date": "06/16/2024",
                 "Opponent": "Orioles",
 		        "Fielding": {
                     "Putouts": 2,
@@ -135,13 +136,64 @@
                     "BK": 0,
                     "SB": 0,
                     "LOB": 0
-                }}
+                }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            }
         ]
     },
     {
         "Name": "Javier Gomez",
         "JerseyNumber": 22,
-        "Positions": "P, C, 3B, SS",
+        "Positions": "P, C, 2B, 3B, SS",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -275,6 +327,70 @@
                     "BK": 0,
                     "SB": 0,
                     "LOB": 0
+                }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 6,
+                    "Assists": 1,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                },
+                "Pitching": {
+                    "IP": 2.2,
+                    "H": 3,
+                    "R": 4,
+                    "ER": 4,
+                    "BB": 2,
+                    "SO": 3,
+                    "HR": 0,
+                    "HBP": 1,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 4,
+                    "LOB": 0
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 5,
+                    "Assists": 2,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 1,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -586,6 +702,84 @@
                     "HBP": 0,
                     "TB": 1
                 }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                },
+                "Pitching": {
+                    "IP": 2.1,
+                    "H": 3,
+                    "R": 1,
+                    "ER": 1,
+                    "BB": 1,
+                    "SO": 2,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 3,
+                    "LOB": 0
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 2,
+                    "SB": 2,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                },
+                "Pitching": {
+                    "IP": 6,
+                    "H": 6,
+                    "R": 4,
+                    "ER": 3,
+                    "BB": 1,
+                    "SO": 11,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 3,
+                    "LOB": 0
+                }
             }
         ]
     },
@@ -716,13 +910,77 @@
                     "SB": 1,
                     "LOB": 5
                 }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 1
+                },
+                "Pitching": {
+                    "IP": 2,
+                    "H": 1,
+                    "R": 5,
+                    "ER": 4,
+                    "BB": 4,
+                    "SO": 4,
+                    "HR": 0,
+                    "HBP": 2,
+                    "WP": 7,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 2,
+                    "CS": 1,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
     {
         "Name": "Tayden Vandenberg",
         "JerseyNumber": 54,
-        "Positions": "",
+        "Positions": "C, 1B, 3B",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -740,6 +998,56 @@
                     "CS": 0,
                     "BB": 1,
                     "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 3,
+                    "Assists": 1,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 1,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 1,
+                    "HBP": 1,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 6,
+                    "Assists": 0,
+                    "Errors": 1
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
                     "HBP": 0,
                     "TB": 0
                 }
@@ -898,6 +1206,56 @@
                     "HBP": 0,
                     "TB": 1
                 }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 2,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 2
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -1039,6 +1397,56 @@
                     "HBP": 1,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 1,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 2
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 1,
+                    "BB": 0,
+                    "SO": 3,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -1148,6 +1556,56 @@
                     "BK": 0,
                     "SB": 4,
                     "LOB": 0
+                }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 4,
+                    "Assists": 0,
+                    "Errors": 2
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 2,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 2
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
                 }
             }
         ]
@@ -1287,6 +1745,70 @@
                     "CS": 0,
                     "BB": 1,
                     "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 3,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 2,
+                    "R": 4,
+                    "ER": 3,
+                    "BB": 1,
+                    "SO": 0,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 6,
+                    "LOB": 0
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 5,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 1,
                     "HBP": 0,
                     "TB": 0
                 }
@@ -1459,13 +1981,63 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 1,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 1,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
     {
         "Name": "Brett Sharon",
         "JerseyNumber": 12,
-        "Positions": "1B, 2B",
+        "Positions": "1B, 2B, RF",
         "GameLog": [
             {
                 "Date": "05/05/2024",
@@ -1536,13 +2108,63 @@
                     "HBP": 0,
                     "TB": 1
                 }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 4,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
             }
         ]
     },
     {
         "Name": "Braydon Carter",
         "JerseyNumber": 8,
-        "Positions": "C, 3B, RF",
+        "Positions": "C, 1B, 2B, 3B, RF",
         "GameLog": [
             {
                 "Date": "05/19/2024",
@@ -1590,6 +2212,56 @@
                     "CS": 0,
                     "BB": 1,
                     "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "06/23/2024",
+                "Opponent": "Rays",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 1,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 1,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 2
+                }
+            },
+            {
+                "Date": "06/30/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 2,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 1,
+                    "AB": 1,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
                     "HBP": 0,
                     "TB": 0
                 }

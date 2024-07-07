@@ -2,7 +2,7 @@
     {
         "Name": "Andrew Halling",
         "JerseyNumber": 74,
-        "Photo": "AndrewHalling.jpg",
+        "Photo": "AndrewHalling.JPG",
         "Height": "6'2",
         "Weight": "205",
         "Bats/Throws": "R/R",
@@ -22,7 +22,7 @@
     {
         "Name": "Arialdis Perez",
         "JerseyNumber": 23,
-        "Photo": "",
+        "Photo": "ArialdisPerez.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -42,7 +42,7 @@
     {
         "Name": "Brad Struck",
         "JerseyNumber": 11,
-        "Photo": "",
+        "Photo": "BradStruck.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -82,7 +82,7 @@
     {
         "Name": "Brett Sharon",
         "JerseyNumber": 12,
-        "Photo": "BrettSharon.jpg",
+        "Photo": "BrettSharon.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -122,7 +122,7 @@
     {
         "Name": "Dawson Krahling",
         "JerseyNumber": 13,
-        "Photo": "",
+        "Photo": "DawsonKrahling.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -142,7 +142,7 @@
     {
         "Name": "Jason Bill",
         "JerseyNumber": 14,
-        "Photo": "",
+        "Photo": "JasonBill.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -162,7 +162,7 @@
     {
         "Name": "Javier Gomez",
         "JerseyNumber": 22,
-        "Photo": "",
+        "Photo": "JavierGomez.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -182,7 +182,7 @@
     {
         "Name": "Joshua Pompa",
         "JerseyNumber": 24,
-        "Photo": "",
+        "Photo": "JoshPompa.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -202,7 +202,7 @@
     {
         "Name": "Nathan Vlasich",
         "JerseyNumber": 31,
-        "Photo": "",
+        "Photo": "NathanVlasich.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",
@@ -242,7 +242,7 @@
     {
         "Name": "Titus Wipf",
         "JerseyNumber": 0,
-        "Photo": "",
+        "Photo": "TitusWipf.JPG",
         "Height": "",
         "Weight": "",
         "Bats/Throws": "",

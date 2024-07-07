@@ -78,8 +78,8 @@
         "Team": "Rays",
         "Home": true,
         "Location": "Birdcage",
-        "Score": "",
-        "Result": "",
+        "Score": "8-15",
+        "Result": "L",
         "Bye": false
     },
     {
@@ -88,8 +88,8 @@
         "Team": "Royals",
         "Home": true,
         "Location": "Augie",
-        "Score": "",
-        "Result": "",
+        "Score": "3-8",
+        "Result": "L",
         "Bye": false
     },
     {
