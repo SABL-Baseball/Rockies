@@ -103,8 +103,8 @@
         "Team": "Pheasants",
         "Home": true,
         "Location": "Augie",
-        "Score": "",
-        "Result": "",
+        "Score": "12-4",
+        "Result": "W",
         "Bye": false
     },
     {
@@ -122,7 +122,7 @@
         "Time": "1pm",
         "Team": "Orioles",
         "Home": false,
-        "Location": "TBD",
+        "Location": "Augie",
         "Score": "",
         "Result": "",
         "Bye": false

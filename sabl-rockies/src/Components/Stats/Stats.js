@@ -125,6 +125,7 @@ export default function Stats() {
       combinedPlayer.Pitching.ERA = parseFloat((combinedPlayer.Pitching.ER / totalInnings) * 9).toFixed(3);
       combinedPlayer.Pitching.WHIP = parseFloat((combinedPlayer.Pitching.BB + combinedPlayer.Pitching.H) / totalInnings).toFixed(3);
       combinedPlayer.Pitching.BAA = parseFloat(combinedPlayer.Pitching.H / (innings * 3 + partialInning + combinedPlayer.Pitching.H)).toFixed(3);
+      combinedPlayer.Pitching.IP = innings + ((partialInning * 10) % 3) / 10;
 
       tempStats.push(combinedPlayer);
     });

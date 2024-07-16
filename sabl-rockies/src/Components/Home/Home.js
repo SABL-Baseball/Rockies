@@ -19,7 +19,9 @@ export default function Home() {
           <p>
             The Rockies are a passionate group of players who love the game of baseball. They compete in the Sioux Amateur Baseball League, striving for victory and camaraderie on the field. Whether it's a sunny day or under the stadium lights, the Rockies give their all, representing Sioux Falls with pride. Feel free to catch a game and cheer them on! <br />
             Manager: Andrew Halling<br />
-            Team Captain: Javier Gomez
+            Assistant Manager: Joshua Pompa <br />
+            Team Captain: Javier Gomez <br />
+            Team Song: <a href="https://www.youtube.com/watch?v=4Fz-mHGXgzs" target="_blank">Rocky Mountain Way</a>
           </p>
         </Container>
         <Container>
