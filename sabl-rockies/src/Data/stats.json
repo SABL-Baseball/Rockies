@@ -212,6 +212,56 @@
                     "HBP": 0,
                     "TB": 3
                 }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 2,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -441,6 +491,70 @@
                     "SO": 1,
                     "HBP": 0,
                     "TB": 2
+                }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                },
+                "Pitching": {
+                    "IP": 1.2,
+                    "H": 4,
+                    "R": 4,
+                    "ER": 1,
+                    "BB": 1,
+                    "SO": 3,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 1,
+                    "LOB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 5,
+                    "AB": 4,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 1,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 2,
+                    "SB": 4,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
                 }
             }
         ]
@@ -869,6 +983,70 @@
                     "SB": 0,
                     "LOB": 0
                 }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                },
+                "Pitching": {
+                    "IP": 2,
+                    "H": 0,
+                    "R": 0,
+                    "ER": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
+                }
             }
         ]
     },
@@ -1165,6 +1343,45 @@
                     "HBP": 1,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                },
+                "Pitching": {
+                    "IP": 3.1,
+                    "H": 4,
+                    "R": 6,
+                    "ER": 3,
+                    "BB": 6,
+                    "SO": 3,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 1,
+                    "LOB": 0
+                }
             }
         ]
     },
@@ -1367,6 +1584,56 @@
                     "CS": 0,
                     "BB": 0,
                     "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 5,
+                    "AB": 5,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
                     "HBP": 0,
                     "TB": 0
                 }
@@ -1586,6 +1853,56 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 1,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
+                }
             }
         ]
     },
@@ -1784,6 +2101,31 @@
                     "BK": 0,
                     "SB": 1,
                     "LOB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 5,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -2014,6 +2356,56 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 0
+                }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -2273,6 +2665,70 @@
                     "SB": 0,
                     "LOB": 0
                 }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 5,
+                    "AB": 5,
+                    "R": 2,
+                    "1B": 3,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 3,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 3
+                },
+                "Pitching": {
+                    "IP": 7,
+                    "H": 8,
+                    "R": 3,
+                    "ER": 3,
+                    "BB": 2,
+                    "SO": 7,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 1,
+                    "LOB": 0
+                }
             }
         ]
     },
@@ -2421,6 +2877,56 @@
                     "SB": 0,
                     "CS": 0,
                     "BB": 2,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 2
+                }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 5,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
                     "SO": 0,
                     "HBP": 0,
                     "TB": 2
@@ -2595,6 +3101,88 @@
                     "SO": 1,
                     "HBP": 0,
                     "TB": 2
+                }
+            },
+            {
+                "Date": "07/21/2024",
+                "Opponent": "Angels",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 2,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            },
+            {
+                "Date": "07/28/2024",
+                "Opponent": "Orioles",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            }
+        ]
+    },
+    {
+        "Name": "David Reed",
+        "JerseyNumber": 21,
+        "Positions": "3B, RF",
+        "GameLog": [
+            {
+                "Date": "0721/2024",
+                "Opponent": "Angels",
+                "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 1,
+                    "AB": 1,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
                 }
             }
         ]

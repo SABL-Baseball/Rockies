@@ -113,14 +113,24 @@
         "Team": "Angels",
         "Home": false,
         "Location": "Larchwood",
-        "Score": "",
-        "Result": "",
+        "Score": "3-13",
+        "Result": "L",
         "Bye": false
     },
     {
         "Date": "07/28/24",
         "Time": "1pm",
         "Team": "Orioles",
+        "Home": false,
+        "Location": "Augie",
+        "Score": "6-3",
+        "Result": "W",
+        "Bye": false
+    },
+    {
+        "Date": "08/04/24",
+        "Time": "1pm",
+        "Team": "Angels",
         "Home": false,
         "Location": "Augie",
         "Score": "",

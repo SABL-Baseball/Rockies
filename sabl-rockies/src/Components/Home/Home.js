@@ -6,7 +6,7 @@ import LocationsData from '../../Data/locations.json';
 
 export default function Home() {
   const nextGame = ScheduleData.find(game => new Date(game.Date) > new Date() && game.Time);
-  const nextGameDirections = LocationsData.find(location => location.Name === nextGame.Location);
+  const nextGameDirections = LocationsData.find(location => location.Name === nextGame?.Location);
 
   return (
     <div style={{backgroundColor: "#333366"}}>
@@ -24,12 +24,14 @@ export default function Home() {
             Team Song: <a href="https://www.youtube.com/watch?v=4Fz-mHGXgzs" target="_blank">Rocky Mountain Way</a>
           </p>
         </Container>
-        <Container>
-          <h1>Next Game</h1>
-          <p>{`${nextGame.Date} ${nextGame.Time}`} {nextGame.Home ? "vs. " : "@ "}{nextGame.Team}</p>
-          <p>{nextGame.Location}, <a href={nextGameDirections.MapsLink} target="_blank" rel="noopener noreferrer">Directions</a></p>
-          <p>Live Stream: <a href={nextGame.Stream} target="_blank" rel="noopener noreferrer">{nextGame.Stream}</a></p>
-        </Container>
+        { nextGame && nextGameDirections &&
+          <Container>
+            <h1>Next Game</h1>
+            <p>{`${nextGame.Date} ${nextGame.Time}`} {nextGame.Home ? "vs. " : "@ "}{nextGame.Team}</p>
+            <p>{nextGame.Location}, <a href={nextGameDirections.MapsLink} target="_blank" rel="noopener noreferrer">Directions</a></p>
+            <p>Live Stream: <a href={nextGame.Stream} target="_blank" rel="noopener noreferrer">{nextGame.Stream}</a></p>
+          </Container>
+      }
       </Container>
     </div>
   );
