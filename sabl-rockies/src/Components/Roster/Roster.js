@@ -1,4 +1,3 @@
-import statsData from '../../Data/stats.json';
 import PlayerProfiles from '../../Data/playerProfiles.json';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
@@ -20,7 +19,6 @@ export default function Roster() {
     setShow(true);
     setPlayer(newPlayer)
   };
-
 
   return (
     <div style={{backgroundColor: "#333366"}}>

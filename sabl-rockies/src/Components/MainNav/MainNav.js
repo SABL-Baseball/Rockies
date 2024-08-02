@@ -25,6 +25,7 @@ export default function MainNav() {
                             <Nav.Link href="#/roster">Roster</Nav.Link>
                             <Nav.Link href="#/stats">Stats</Nav.Link>
                             <Nav.Link href="#/locations">Locations</Nav.Link>
+                            <Nav.Link href="#/allstar">All-Star Vote</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
