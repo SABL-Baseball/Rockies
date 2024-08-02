@@ -86,7 +86,7 @@ export default function AllStar() {
         { voteSubmitted ?
             <Alert variant="success">"Your 2024 All-Star Votes Have Been Successfully Submitted!"</Alert> :
             <Form>
-                <Alert variant="info">"You can select up to 3 players to cast a 2024 All-Star vote for. To learn more about players statistics, you can go to the Stats page."</Alert>
+                <Alert variant="info">"You can vote for up to 3 players for the 2024 All-Star game. To learn more about players statistics, you can go to the Stats page."</Alert>
                 <Stack gap={3}>
                 {players.map((player, index) =>
                     <Card key={index}>
