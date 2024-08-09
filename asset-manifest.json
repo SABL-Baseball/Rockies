@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rockies/static/css/main.f855e6bc.css",
-    "main.js": "/Rockies/static/js/main.b4647a79.js",
+    "main.js": "/Rockies/static/js/main.47b71b7d.js",
     "static/js/453.cb43d52c.chunk.js": "/Rockies/static/js/453.cb43d52c.chunk.js",
     "static/media/BrettSharon.JPG": "/Rockies/static/media/BrettSharon.c52672cc9709cac1a48c.JPG",
     "static/media/TitusWipf.JPG": "/Rockies/static/media/TitusWipf.ad7245675b4d1ff6b871.JPG",
@@ -16,11 +16,11 @@
     "static/media/BradStruck.JPG": "/Rockies/static/media/BradStruck.060dc1623e2988429bbb.JPG",
     "index.html": "/Rockies/index.html",
     "main.f855e6bc.css.map": "/Rockies/static/css/main.f855e6bc.css.map",
-    "main.b4647a79.js.map": "/Rockies/static/js/main.b4647a79.js.map",
+    "main.47b71b7d.js.map": "/Rockies/static/js/main.47b71b7d.js.map",
     "453.cb43d52c.chunk.js.map": "/Rockies/static/js/453.cb43d52c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.b4647a79.js"
+    "static/js/main.47b71b7d.js"
   ]
 }
