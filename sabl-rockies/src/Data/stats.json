@@ -262,6 +262,31 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 2,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -555,6 +580,31 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 0
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 2
                 }
             }
         ]
@@ -1047,6 +1097,45 @@
                     "SB": 0,
                     "LOB": 0
                 }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 2
+                },
+                "Pitching": {
+                    "IP": 7,
+                    "H": 3,
+                    "R": 0,
+                    "ER": 0,
+                    "BB": 3,
+                    "SO": 9,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
+                }
             }
         ]
     },
@@ -1241,6 +1330,45 @@
                     "HBP": 0,
                     "TB": 0
                 }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 3,
+                    "R": 2,
+                    "ER": 2,
+                    "BB": 1,
+                    "SO": 1,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 1,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
+                }
             }
         ]
     },
@@ -1381,6 +1509,31 @@
                     "BK": 0,
                     "SB": 1,
                     "LOB": 0
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
                 }
             }
         ]
@@ -1636,6 +1789,31 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 0
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 2,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -1903,6 +2081,31 @@
                     "HBP": 0,
                     "TB": 1
                 }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 1,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -2126,6 +2329,45 @@
                     "SO": 2,
                     "HBP": 0,
                     "TB": 1
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 2,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 2
+                },
+                "Pitching": {
+                    "IP": 1,
+                    "H": 2,
+                    "R": 0,
+                    "ER": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HR": 0,
+                    "HBP": 0,
+                    "WP": 0,
+                    "BK": 0,
+                    "SB": 0,
+                    "LOB": 0
                 }
             }
         ]
@@ -2406,6 +2648,31 @@
                     "SO": 1,
                     "HBP": 0,
                     "TB": 1
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 3,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 1,
+                    "HBP": 0,
+                    "TB": 0
                 }
             }
         ]
@@ -2729,6 +2996,31 @@
                     "SB": 1,
                     "LOB": 0
                 }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 0,
+                    "1B": 0,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 1,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 1,
+                    "TB": 0
+                }
             }
         ]
     },
@@ -2930,6 +3222,31 @@
                     "SO": 0,
                     "HBP": 0,
                     "TB": 2
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 4,
+                    "AB": 4,
+                    "R": 0,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 0,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
+                    "HBP": 0,
+                    "TB": 1
                 }
             }
         ]
@@ -3149,6 +3466,31 @@
                     "CS": 0,
                     "BB": 0,
                     "SO": 1,
+                    "HBP": 0,
+                    "TB": 1
+                }
+            },
+            {
+                "Date": "08/04/2024",
+                "Opponent": "Royals",
+		        "Fielding": {
+                    "Putouts": 0,
+                    "Assists": 0,
+                    "Errors": 0
+                },
+                "Hitting": {
+                    "PA": 3,
+                    "AB": 2,
+                    "R": 1,
+                    "1B": 1,
+                    "2B": 0,
+                    "3B": 0,
+                    "HR": 0,
+                    "RBI": 1,
+                    "SB": 0,
+                    "CS": 0,
+                    "BB": 0,
+                    "SO": 0,
                     "HBP": 0,
                     "TB": 1
                 }

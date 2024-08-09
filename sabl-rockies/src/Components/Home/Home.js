@@ -29,9 +29,13 @@ export default function Home() {
             <h1>Next Game</h1>
             <p>{`${nextGame.Date} ${nextGame.Time}`} {nextGame.Home ? "vs. " : "@ "}{nextGame.Team}</p>
             <p>{nextGame.Location}, <a href={nextGameDirections.MapsLink} target="_blank" rel="noopener noreferrer">Directions</a></p>
-            <p>Live Stream: <a href={nextGame.Stream} target="_blank" rel="noopener noreferrer">{nextGame.Stream}</a></p>
+            {nextGame.Stream && <p>Live Stream: <a href={nextGame.Stream} target="_blank" rel="noopener noreferrer">{nextGame.Stream}</a></p>}
           </Container>
-      }
+        }
+        <Container>
+            <h1>2024 All-Star Voting</h1>
+            <p>2024 All-Star Voting is now open. You can vote for up to 3 players to make the 2024 All-Star game. <a href="#/allstar">Vote Now!</a></p>
+          </Container>
       </Container>
     </div>
   );

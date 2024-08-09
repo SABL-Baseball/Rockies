@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export default function App() {
   useEffect(() => {
     let data = localStorage.getItem("Data");
-    if (!data || Math.ceil(Math.abs(new Date() - new Date(data.Date)) / (1000 * 60 * 60 * 24)) <= 5) {
+    if (!data || Math.ceil(Math.abs(new Date() - new Date(data.Date)) / (1000 * 60 * 60 * 24)) <= 1) {
       const today = new Date();
       if(!data) data = {};
       data.Date = today.toISOString();
